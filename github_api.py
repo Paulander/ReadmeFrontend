@@ -12,8 +12,7 @@ def get_user_repositories(username):
         return []
 
 def generate_readme(username, repo_name, folder_name):
-    # In a real-world scenario, you would use the GitHub API to get repository details
-    # and generate a README based on that information. For this example, we'll create a simple README.
+    # TODO: Tie this to MancerAI API. For now populate dummy readme: 
     repo_url = f"https://github.com/{username}/{repo_name}"
     readme_content = f"""# {repo_name}
 
