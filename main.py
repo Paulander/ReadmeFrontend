@@ -11,8 +11,6 @@ def validate_username(username):
 def validate_folder_name(folder_name):
     return re.match(r'^[a-zA-Z0-9-_]+$', folder_name) is not None
 
-
-
 @app.route("/")
 def index():
     return render_template("index.html")
