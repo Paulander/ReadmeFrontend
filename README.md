@@ -28,34 +28,31 @@ The ReadmeFrontend is a React-based web application that provides a user-friendl
    ```
    git clone https://github.com/paulander/readmefrontend.git
    ```
-
 2. Navigate to the project directory:
    ```
    cd readmefrontend
    ```
-
 3. Install dependencies:
    ```
    npm install
    ```
 
-4. Create a `.env` file in the root directory and add the necessary environment variables (refer to `.env.example` for required variables).
+### Running the Application
 
-5. Start the development server:
+1. Start the development server:
    ```
    npm start
    ```
-
-6. Open your browser and visit `http://localhost:3000` to view the application.
+2. Open your browser and visit `http://localhost:3000`
 
 ## Project Structure
 
-- `src/`: Contains the source code for the React application
-  - `components/`: Reusable React components
-  - `pages/`: Individual page components
-  - `services/`: API and utility services
-  - `styles/`: CSS and styling files
-- `public/`: Static assets and HTML template
+- `/src`: Contains the main source code
+  - `/components`: React components
+  - `/pages`: Page-level components
+  - `/services`: API and utility services
+  - `/styles`: CSS and styling files
+- `/public`: Static assets and HTML template
 
 ## Contributing
 
@@ -63,8 +60,8 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License.
 
 ## Contact
 
-For any questions or concerns, please open an issue in the GitHub repository.
+For any questions or concerns, please open an issue on the GitHub repository.
