@@ -1,26 +1,24 @@
 # ReadmeFrontend
 
-Welcome to the ReadmeFrontend repository! This project contains the frontend code for a web application that generates README files for GitHub repositories.
+Welcome to the ReadmeFrontend repository! This project is a frontend application designed to interact with a README generation service.
 
 ## Project Overview
 
-The ReadmeFrontend is a React-based web application that provides a user-friendly interface for creating and editing README files. It allows users to input repository information, generate README content, and preview the results before committing them to their GitHub repositories.
+ReadmeFrontend is a web-based application that allows users to generate README files for their projects. It provides an intuitive interface for inputting project details and receiving a formatted README in return.
 
 ## Features
 
-- User authentication and authorization
-- Repository selection and information retrieval
-- README content generation using AI assistance
-- Markdown editor for manual content editing
-- Live preview of the README file
-- Direct integration with GitHub for committing changes
+- User-friendly interface for inputting project information
+- Integration with a backend service for README generation
+- Preview functionality for generated READMEs
+- Support for multiple README formats and templates
 
 ## Getting Started
 
 ### Prerequisites
 
-- Node.js (v14 or later)
-- npm (v6 or later)
+- Node.js (version 14 or higher)
+- npm (comes with Node.js)
 
 ### Installation
 
@@ -45,14 +43,12 @@ The ReadmeFrontend is a React-based web application that provides a user-friendl
    ```
 2. Open your browser and visit `http://localhost:3000`
 
-## Project Structure
+## Usage
 
-- `/src`: Contains the main source code
-  - `/components`: React components
-  - `/pages`: Page-level components
-  - `/services`: API and utility services
-  - `/styles`: CSS and styling files
-- `/public`: Static assets and HTML template
+1. Fill in the required fields in the web interface
+2. Click on the 'Generate README' button
+3. Preview the generated README
+4. Download or copy the README content as needed
 
 ## Contributing
 
@@ -60,8 +56,12 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## License
 
-This project is licensed under the MIT License.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Contact
 
-For any questions or concerns, please open an issue on the GitHub repository.
+For any questions or concerns, please open an issue in the GitHub repository.
+
+---
+
+Thank you for using ReadmeFrontend!
